@@ -1,0 +1,22 @@
+{
+    "name": "lakshanjs/jpegmini-sdk",
+    "description": "A PHP SDK wrapper for the JPEGmini CLI image optimizer.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lakshan Jayasinghe",
+            "email": "lakshan.jayasinghe@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "LakshanJS\\Jpegmini\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
